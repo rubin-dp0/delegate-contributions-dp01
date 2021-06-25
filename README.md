@@ -19,7 +19,10 @@ from our Stack Club here: (we will need to copy the notebook at the link below t
 https://github.com/LSSTScienceCollaborations/StackClub/blob/2d16a13c5ef3567e4b1535eb3dcfeb17622558b9/GettingStarted/templates/template_Notebook.ipynb
 
 As an example, we assume here that, working locally on your computer, you prepared a new notebook conforming 
-to the standards.  
+to the standards.  Let's call it yournotebok.ipynb Now, working from the terminal window in yur Jupter instance, 
+you need to issue the following commands:  
+
+<here we need to give explicit set of git commands to put the notebook into the repo>
 
 Of course your work might have been using the Rubin Science Portal rather than a notebook, and came up with a nice tutorial 
 which might be of use to others.  Examples are:  a step-by-step Portal demo that uses the DC2 data set, or 
