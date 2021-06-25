@@ -29,16 +29,16 @@ All delegates will have write access and so it is possible to commit changes dir
 
 ### Best Practices
 
-| - document your code for non-experts
-| - provide links to background information
-| - clear notebook outputs before committing changes
+Please always:
+- document your code for non-experts
+- provide links to background information
+- clear notebook outputs before committing changes
 
-
-| All tutorials should have a header containing:
-|  - the author's name
-|  - the date the tutorial was last tested
-|  - the goals of the notebook
-|  - see the example directory for guidance
+All tutorials should have a header containing:
+ - the author's name
+ - the date the tutorial was last tested
+ - the goals of the notebook
+ - see the example directory for guidance
 
 ## Need to learn how to use GitHub?
 
