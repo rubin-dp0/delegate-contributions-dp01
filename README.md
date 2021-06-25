@@ -1,7 +1,7 @@
 # delegate-contributions
 
 In this short note, we will show how you can contribute your work for the use of the larger DP0 community.  
-Here, we will assume that you are working with a notebook - be it one of the DP0 - provided 
+Here, we will assume that you are working with a notebook:  it can be a modification of one of the DP0 - provided 
 notebooks, or an entirely new one.  If you wish to contribute it - follow the workflow below.  
 
 The recommended way is to edit an existing notebook (or start a new one) in your own instance of Jupyter.  
@@ -24,7 +24,7 @@ you need to issue the following commands:
 
 <here we need to give explicit set of git commands to put the notebook into the repo>
 
-Of course your work might have been using the Rubin Science Portal rather than a notebook, and came up with a nice tutorial 
+Of course your work might have been using the Rubin Science Portal rather than a notebook, and for instance could result in a nice tutorial 
 which might be of use to others.  Examples are:  a step-by-step Portal demo that uses the DC2 data set, or 
 a TAP service instructional tutorial which uses the DC2 data set.  Once you have prepared one of those - you can follow the steps abve 
 to contribute it to the same repository.  
