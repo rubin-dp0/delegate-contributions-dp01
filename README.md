@@ -20,3 +20,8 @@ https://github.com/LSSTScienceCollaborations/StackClub/blob/2d16a13c5ef3567e4b15
 
 As an example, we assume here that, working locally on your computer, you prepared a new notebook conforming 
 to the standards.  
+
+Of course your work might have been using the Rubin Science Portal rather than a notebook, and came up with a nice tutorial 
+which might be of use to others.  Examples are:  a step-by-step Portal demo that uses the DC2 data set, or 
+a TAP service instructional tutorial which uses the DC2 data set.  Once you have prepared one of those - you can follow the steps abve 
+to contribute it to the same repository.  
