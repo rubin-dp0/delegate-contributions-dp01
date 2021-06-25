@@ -38,7 +38,8 @@ All tutorials should have a header containing:
  - the author's name
  - the date the tutorial was last tested
  - the goals of the notebook
- - see the example directory for guidance
+
+See the example directory for guidance on formatting notebooks and markdown files.
 
 ## Need to learn how to use GitHub?
 
