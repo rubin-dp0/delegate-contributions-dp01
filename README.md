@@ -22,7 +22,7 @@ Direct messages between delegates in Community.lsst.org is an appropriate mode o
 1. Make a branch for your work, and name it u/(your github username).
 2. Add and edit content in your branch until you're ready to share it with everyone.
 3. Start a new Pull Request (PR) from your branch to main. Assign another DP0 delegate to review it.
-4. Incorporate any comments you recieve into your branch.
+4. Incorporate any comments you recieve during review into your branch's materials.
 5. After your reviewer has approved your PR, merge your branch into ``main``.
 
 All delegates will have write access and so it is possible to commit changes directly to ``main``, but this is discouraged.
