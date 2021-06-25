@@ -20,9 +20,13 @@ https://github.com/LSSTScienceCollaborations/StackClub/blob/2d16a13c5ef3567e4b15
 
 As an example, we assume here that, working locally on your computer, you prepared a new notebook conforming 
 to the standards.  Let's call it yournotebok.ipynb Now, working from the terminal window in yur Jupter instance, 
-you need to issue the following commands:  
+you need to issue the following commands:  <here we need to give explicit set of git commands to put the notebook into the repo>
 
-<here we need to give explicit set of git commands to put the notebook into the repo>
+git command 1 (transfer your notebook to some repo)
+
+git command 2 (go to the repo)
+
+git command 3 (issue a pull request, have someone (a CET person?) verify it
 
 Of course your work might have been using the Rubin Science Portal rather than a notebook, and for instance could result in a nice tutorial 
 which might be of use to others.  Examples are:  a step-by-step Portal demo that uses the DC2 data set, or 
