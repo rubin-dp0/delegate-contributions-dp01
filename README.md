@@ -49,4 +49,4 @@ https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bb
 
 https://github.com/drphilmarshall/GettingStarted - Phil Marshall's notes on "Getting Started with git and GitHub" 
 
-# And, you can take advantage of the Cheat Sheet included here! 
+### And, you can take advantage of the Cheat Sheet included here! 
