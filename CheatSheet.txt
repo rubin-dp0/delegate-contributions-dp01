@@ -1,32 +1,31 @@
-##Cheat sheet for DP0 delegates wishing to contribute their work 
+## Cheat sheet for DP0 delegates wishing to contribute their work 
 
-This cheat-sheet was initially prepared by Doug Tucker for the Stack Cub members,
-and we updated it to use it during DP0, with proper links etc.  You might find it useful, especially if you
-are new to Git.
+# This cheat sheet was initially prepared by Doug Tucker for the Stack Cub members.  
+# We updated it to use it during DP0, with proper links etc.  You might find it useful, especially if you are new to Git.
 
-We assume you successfully started an instance of JupyterLab.
+# We assume you successfully started an instance of JupyterLab.
 
-Next, open a terminal window within a spawned JupyterLab notebook in your browser.
+# Next, open a terminal window within a spawned JupyterLab notebook in your browser.
 
-Now that you are connected in, what to do?  That is the topic of the next section...
+# Now that you are connected in, what to do?  That is the topic of the next section...
 
-In the example below, your_name is just that - your username.
+# In the example below, your_name is just that - your username.
 
 -----------------------------------------------------------
-Example workflow, from "git clone" to merge with remote repo...
 
-See also a little intro written for the Stack Club newbies -
+# Example workflow, from "git clone" to merge with remote repo...
+
+# See also a little intro written for the Stack Club newbies -
 
   https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/HelloWorld.ipynb
-!! might not be accessible to all
 
 # OK, moving on...
 
-# Within the terminal that you opened up in the JupyterLab notebook from the previous section, you might wish to run the following command-line commands.
+# Within the terminal that you opened up in the JupyterLab notebook from the 
+# previous section, you might wish to run a few command-line commands as below.  
 
-# Your home directory /home/your_name should have a sub-directory /home/your_name/tutorial-notebooks and that is where you should land first.  To make sure:
-
-# First, verify you are in the correct directory:
+# Your home directory /home/your_name should have a sub-directory /home/your_name/tutorial-notebooks 
+# and that is where you should land first.  To make sure:  verify you are in the correct directory:
 
 pwd
 
@@ -40,7 +39,7 @@ cd /home/your_name/tutorial-notebooks
 
 ls -al
 
-# You should see several notebooks, such as 01_Intro_to_DP0_Notebooks.ipynb etc
+# You should see a list of several notebooks, such as 01_Intro_to_DP0_Notebooks.ipynb etc
 
 # If, for some reason in the future, you want to "blow away" this clone of the repo
 # and start afresh, you can either rename or delete the "tutorial-notebooks" directory
@@ -75,21 +74,21 @@ git checkout your_name
 #
 # * * * Make changes to the branch here. * * *
 #
-If editing a notebook:
-  1. make your changes.
-  2. check your changes work.
-  3. from menu bar:    Kernel --> Restart and Run All Cells
-         a. fix any errors
-         b. re-do until errors are all corrected
-  4. from menu bar:    Kernel --> Restart and Clear All Cells
-  5. hit "save" in the notebook editor to make sure edits are captured.
+# If editing a notebook:
+#  1. make your changes.
+#  2. check your changes work.
+#  3. from menu bar:    Kernel --> Restart and Run All Cells
+#         a. fix any errors
+#         b. re-do until errors are all corrected
+#  4. from menu bar:    Kernel --> Restart and Clear All Cells
+#  5. hit "save" in the notebook editor to make sure edits are captured.
 
 # Commit changes to local branch:
 git status
 git add <filename>      # if there is a file ("<filename>") to add...
 git commit <filename> -m "Add a fairly detailed comment on the changes you made here"  # check in changes for a given file
 # or
-git commit -am "Add a fairly detailed comment on the changes you made here"  # check in changes "en masse"
+git commit -am "Add a fairly detailed comment on the changes you made here"  # check in changes "en masse" (all files) 
 git status
 
 # Push updates to origin on github:
@@ -102,34 +101,38 @@ https://github.com/rubin-dp0/tutorial-notebooks/pull/new/your_name
 
 # and click on green "New pull request" button.
 # This will alert others in DP0 that your changes
-# are ready for a Code Review.  It is good to assign at
+# are ready for a Code Review (we anticipate this would 
+# be performed b another DP0 delegate).  It is good to assign at
 # least one possible reviewer explicitly and mention her/him
 # explicitly by her/his GitHub name in the description of the "pull" request.
-# There may be some iteration with the Code Reviewers.
-# You will be able to follow the discussion via e-mail
+# There may be some iteration with the Code Reviewer 
+# you will be able to follow the discussion via e-mail.
 
-# Once the Code Reviewers are satisfied, they will
+# Once the Code Reviewer(s) are satisfied, they will
 # will approve the changes and you will get an e-mail
 # indicating the "pull" request has been approved.
-
 
 # After getting e-mail saying the "pull" request has been approved, perform a "merge".
 #
 #  If the branch has no conflicts with the master branch on GitHub, you might be able to
 #  just click on the Big Green "Merge pull request" Button at the bottom of this particular
-#  "pull" request's webpage (e.g., for "pull" request #153, at the bottom of the webpage
-#  https://github.com/LSSTScienceCollaborations/StackClub/pull/153
+#  "pull" request's webpage.  
 #
-#  Otherwise, here is the step-by-step command-line version.
-#  (In either case, you might still want/need to do the
-#   "git branch -d project/helloworld/douglasleetucker"
-#   and
-#   "git push origin --delete project/helloworld/douglasleetucker"
-#   commands shown below.)
-git checkout master     # Switch from project/helloworld/douglasleetucker back to master branch (locally)
+#  
+#  If you are merging the pull request from the Git Web page, you might still want/need to do the
+#
+git branch -d your_name" 
+# (which deletes the local version of your_name), and 
+# 
+git push origin --delete your_name
+# (which deletes the remote version of your_name on github)
+#   
+# Alternatively, you can do the same using the step-by-step command-line version, using commands shown below:  
+#
+git checkout master     # Switch from your_name back to master branch (locally)
 git pull origin master  # Make sure local master branch is up-to-date with remote origin master branch on github
-git branch --merged     # Check to see if project/helloworld/douglasleetucker has been merged locally
-git merge your_name      # Merge project/helloworld/douglasleetucker with local master branch
+git branch --merged     # Check to see if your_name has been merged locally
+git merge your_name      # Merge pyour_name with local master branch
 git branch --merged     # Verify the merge worked
 git push origin master  # Push local master back to remote origin master on github
 git branch -d your_name  # Delete local version of your_name
@@ -138,8 +141,8 @@ git branch -a           # Verify that the local and remote versions of your_name
 # (Note:  there may be some redundancy here.  I was following the workflow described in
 #         the youtube video listed under "General git tutorial stuff" in the "Other useful
 #         git commands" section below.)
-
-
+#
+#
 # Start with a new branch to address other issues:
 git status              # Always good to check...
 # Note:  ideally, the issue number should be part of the name of a new branch:
@@ -153,7 +156,7 @@ git branch              # Confirm you are now working on that branch
 Other useful git commands:
 
 git --version
-# Two commands below might be necessary to execute the command "git push origin your_name" :
+# Two commands below might be necessary to execute the command "git push origin your_name" (you would have seen an error message) 
 git config --global user.email "your_name@yourinstitution.com"  # create/update your e-mail address in the local git configuration
 git config --global user.name "your_name"   # create/update your username in the local git configuration
 git config --list
