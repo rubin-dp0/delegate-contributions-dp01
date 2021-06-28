@@ -43,4 +43,10 @@ See the example directory for guidance on formatting notebooks and markdown file
 
 ## Need to learn how to use GitHub?
 
-*(Provide some links to GitHub documentation here.)*
+https://www.youtube.com/watch?v=HVsySz-h9r4 - a good youtube video with introduction to git command line basics 
+
+https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bbf6eaac39c - a basic introduction to git commands 
+
+https://github.com/drphilmarshall/GettingStarted - Phil Marshall's notes on "Getting Started with git and GitHub" 
+
+
