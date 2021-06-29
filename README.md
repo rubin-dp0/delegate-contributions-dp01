@@ -43,10 +43,15 @@ See the example directory for guidance on formatting notebooks and markdown file
 
 ## Need to learn how to use GitHub?
 
-https://www.youtube.com/watch?v=HVsySz-h9r4 - a good youtube video with introduction to git command line basics 
+Git is already installed in the Notebook Aspect of the Rubin Science Platform.
 
-https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bbf6eaac39c - a basic introduction to git commands 
+The best place to start in the extensive GitHub documentation is with the <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">quickstart setup guide</a>.
+There is also a <a href="https://training.github.com/downloads/github-git-cheat-sheet/">GitHub Cheat Sheet</a> of commonly used commands, and a <a href="https://docs.github.com/en/get-started/quickstart/github-glossary">GitHub Glossary</a>. 
 
-https://github.com/drphilmarshall/GettingStarted - Phil Marshall's notes on "Getting Started with git and GitHub" 
+<a href="https://www.youtube.com/watch?v=HVsySz-h9r4">Git Tutorial for Beginners: Command-Line Fundamentals</a> (a YouTube tutorial that includes git command line basics). 
+
+<a href="https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bbf6eaac39c">What college students should learn about Git</a> (a medium.com article that includes fundamental git concepts and basic git commands).
+
+<a href="https://github.com/drphilmarshall/GettingStarted">Phil Marshall's notes on "Getting Started with git and GitHub"</a>.
 
 ### And, you can take advantage of the Cheat Sheet included here! 
