@@ -56,4 +56,4 @@ There is also a <a href="https://training.github.com/downloads/github-git-cheat-
 
 <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the ssh-agent</a>, a guide to setting up git credentials so that you can push changes back to your remote repositories.
 
-**See alsp the <a href="https://github.com/rubin-dp0/delegate-contributions-dp01/blob/main/CheatSheet.txt">GitHub Cheat Sheet</a> provided in this repository.**
+**See also the <a href="https://github.com/rubin-dp0/delegate-contributions-dp01/blob/main/CheatSheet.txt">GitHub Cheat Sheet</a> provided in this repository.** This cheat sheet was developed by Douglas Tucker for the <a href="https://github.com/LSSTScienceCollaborations/StackClub">LSST Science Collaborations Stack Club</a> and altered to be appropriate for Data Preview 0 by Greg Madejski. 
