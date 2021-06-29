@@ -15,12 +15,6 @@
 
 # Example workflow, from "git clone" to merge with remote repo...
 
-# See also a little intro written for the Stack Club newbies -
-
-  https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/HelloWorld.ipynb
-
-# OK, moving on...
-
 # Within the terminal that you opened up in the JupyterLab notebook from the 
 # previous section, you might wish to run a few command-line commands as below.  
 
