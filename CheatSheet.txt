@@ -9,7 +9,7 @@
 
 # Now that you are connected in, what to do?  That is the topic of the next section...
 
-# In the example below, your_name is just that - your username.
+# In the example below, your_name is just that - your <GitHub Username>.
 
 -----------------------------------------------------------
 
@@ -34,10 +34,6 @@ cd /home/your_name/tutorial-notebooks
 ls -al
 
 # You should see a list of several notebooks, such as 01_Intro_to_DP0_Notebooks.ipynb etc
-
-# If, for some reason in the future, you want to "blow away" this clone of the repo
-# and start afresh, you can either rename or delete the "tutorial-notebooks" directory
-# and then re-run the  "git clone https://github.com/rubin-dp0/tutorial-notebooks" command.
 
 # Next, test out some useful "git" commands:
 
@@ -96,9 +92,9 @@ https://github.com/rubin-dp0/tutorial-notebooks/pull/new/your_name
 # and click on green "New pull request" button.
 # This will alert others in DP0 that your changes
 # are ready for a Code Review (we anticipate this would 
-# be performed b another DP0 delegate).  It is good to assign at
-# least one possible reviewer explicitly and mention her/him
-# explicitly by her/his GitHub name in the description of the "pull" request.
+# be performed by another DP0 delegate).  It is good to assign at
+# least one possible reviewer explicitly and mention them
+# explicitly by their GitHub name in the description of the "pull" request.
 # There may be some iteration with the Code Reviewer 
 # you will be able to follow the discussion via e-mail.
 
@@ -112,7 +108,6 @@ https://github.com/rubin-dp0/tutorial-notebooks/pull/new/your_name
 #  just click on the Big Green "Merge pull request" Button at the bottom of this particular
 #  "pull" request's webpage.  
 #
-#  
 #  If you are merging the pull request from the Git Web page, you might still want/need to do the
 #
 git branch -d your_name" 
@@ -161,7 +156,7 @@ git diff
 
 
 General git tutorial stuff:
-  https://www.youtube.com/watch?v=HVsySz-h9r4
+  https://www.youtube.com/watch?v=HVsySz-h9r4 
   https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bbf6eaac39c
   https://github.com/drphilmarshall/GettingStarted
 
