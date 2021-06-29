@@ -48,7 +48,7 @@ Git is already installed in the Notebook Aspect of the Rubin Science Platform.
 The best place to start in the extensive GitHub documentation is with the <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">quickstart setup guide</a>.
 There is also a <a href="https://training.github.com/downloads/github-git-cheat-sheet/">GitHub Cheat Sheet</a> of commonly used commands, and a <a href="https://docs.github.com/en/get-started/quickstart/github-glossary">GitHub Glossary</a>. 
 
-<a href="https://www.youtube.com/watch?v=HVsySz-h9r4">Git Tutorial for Beginners: Command-Line Fundamentals</a> (a YouTube tutorial that includes git command line basics). 
+<a href="https://www.youtube.com/watch?v=HVsySz-h9r4">Git Tutorial for Beginners: Command-Line Fundamentals</a> (a YouTube tutorial that includes git command line basics, but if you are not installing Git, you might want to skip a section of it describing the installation). 
 
 <a href="https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bbf6eaac39c">What college students should learn about Git</a> (a medium.com article that includes fundamental git concepts and basic git commands).
 
