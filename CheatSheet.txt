@@ -87,7 +87,7 @@ git push origin your_name
 
 # Submit a "pull" request via the webpage
 
-https://github.com/rubin-dp0/tutorial-notebooks/pull/new/your_name
+https://github.com/rubin-dp0/delegate-contributions-dp01/pull/new/your_name
 
 # and click on green "New pull request" button.
 # This will alert others in DP0 that your changes
