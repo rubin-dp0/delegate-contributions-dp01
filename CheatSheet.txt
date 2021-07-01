@@ -1,95 +1,115 @@
-## Cheat sheet for DP0 delegates wishing to contribute their work 
-
+# This is a cheat sheet of GitHub commands for DP0 delegates using this repository.
 # This cheat sheet was initially prepared by Doug Tucker for the Stack Cub members.  
-# We updated it to use it during DP0, with proper links etc.  You might find it useful, especially if you are new to Git.
+# The following will be most useful to people who are new to git and command lines.
 
-# We assume you successfully started an instance of JupyterLab.
-
-# Next, open a terminal window within a spawned JupyterLab notebook in your browser.
-
-# Now that you are connected in, what to do?  That is the topic of the next section...
-
-# In the example below, your_name is just that - your <GitHub Username>.
+# Below, "your_name" = your GitHub username.
+# "This repository" is "delegate-contributions-dp01".
+# "This GitHub Org" is "rubin-dp0".
 
 -----------------------------------------------------------
+# Get started - make a local copy of this repo in your home directory.
+# In the Notebook Aspect of the Rubin Science Platform (JupyterLab), launch a terminal.
 
-# Example workflow, from "git clone" to merge with remote repo...
-
-# Within the terminal that you opened up in the JupyterLab notebook from the 
-# previous section, you might wish to run a few command-line commands as below.  
-
-# Your home directory /home/your_name should have a sub-directory /home/your_name/tutorial-notebooks 
-# and that is where you should land first.  To make sure:  verify you are in the correct directory:
-
+# First, check your present working directory:
 pwd
 
-# This should return /home/your_name/tutorial-notebooks
+# This should return /home/your_name
 
-# If not - move to the "tutorial-notebooks" directory:
+# Now list the contents of your present working directory:
+ls
 
-cd /home/your_name/tutorial-notebooks
+# You will see that you have a notebooks directory. Go into it:
+cd notebooks
 
-# Now, verify the content of the directory:
+# You will see that two directories already exist: system_test and tutorial-notebooks
+# The tutorial-notebooks directory will match the repository with the same name in this GitHub Org.
 
-ls -al
+# Clone this repository, delegate-contributions-dp01, into your notebooks directory:
+git clone https://github.com/rubin-dp0/delegate-contributions-dp01.git
 
-# You should see a list of several notebooks, such as 01_Intro_to_DP0_Notebooks.ipynb etc
+# Now go into it:
+cd delegate-contributions-dp01
 
-# Next, test out some useful "git" commands:
+# List the contents:
+ls
 
-git remote -v    # check remote repo
-git branch -a    # list all branches
-git status       # very useful; e.g., after every "git" command!
+# This list will match what you see in https://github.com/rubin-dp0/delegate-contributions-dp01
+# Including this CheatSheet.txt file.
 
-# We want to keep the "Master branch" of tutorial-notebooks clean and up-to-date with the tutorial-notebooks repo,
-# and develop / modify notebooks in one's own "Development branch".
-# Therefore, within the main "tutorial-notebooks" directory, create a new branch and move to it:
+# Here are some useful "git" commands:
+git status       # returns current branch, changed files; use this frequently
+git branch -a    # list all branches of this repo
+git remote -v    # list the remotes for this repo
 
-git checkout -b your_name   # Create a new branch and move to it...
-git branch       # Confirm you are now working on that branch
+-----------------------------------------------------------
+# Prepare to work - make yourself a branch and switch to it
 
-# Alternatively, one can create a new branch with one command and move to it with a second command.
-# Here is the same procedure as the previous step, but splitting the "git checkout -b" step into two parts:
+# By default, right after a "git clone", you will be in the "main" branch.
 
-git branch your_name    # Create a new branch
-git checkout your_name  # Move to branch your_name
-git branch       # Confirm you are now working on that branch
+# Create a new branch to use for your own work, and switch to that branch in one command.
+# By convention, we name user branches "u/your_name":
+git checkout -b u/your_name
 
-# Note: if you want to move to a branch you had created previously, just issue the
-# git checkout command omitting the "-b" option; e.g., to move to a previously created branch
-# "your_name", just issue the following command:
-
-git checkout your_name
-
-#
-# * * * Make changes to the branch here. * * *
-#
-# If editing a notebook:
-#  1. make your changes.
-#  2. check your changes work.
-#  3. from menu bar:    Kernel --> Restart and Run All Cells
-#         a. fix any errors
-#         b. re-do until errors are all corrected
-#  4. from menu bar:    Kernel --> Restart and Clear All Cells
-#  5. hit "save" in the notebook editor to make sure edits are captured.
-
-# Commit changes to local branch:
-git status
-git add <filename>      # if there is a file ("<filename>") to add...
-git commit <filename> -m "Add a fairly detailed comment on the changes you made here"  # check in changes for a given file
-# or
-git commit -am "Add a fairly detailed comment on the changes you made here"  # check in changes "en masse" (all files) 
+# Confirm that you are working in your new branch
+git branch
 git status
 
-# Push updates to origin on github:
+# Alternatively, you could create a new branch *without* switching to it:
+git branch u/your_name
 
-git push origin your_name
+# To switch to any existing branch at any time:
+git checkout u/your_name
+
+-----------------------------------------------------------
+# Work in your branch - edit files and notebooks or create new ones
+ 
+# If editing/creating a notebook:
+#  1. make your changes until you are 'done'
+#  2. from menu bar select Kernel --> Restart and Run All Cells
+#  3. fix errors until the whole notebook executes
+#  4. from menu bar select Kernel --> Restart and Clear All Cells
+#  5. from menu bar select File --> Save Notebook 
+
+# The final save should be a cleared notebook with no executed cells.
+
+-----------------------------------------------------------
+# Commit changes to your local branch
+# This can be done periodically as you work
+
+# Check which files have been changed
+git status
+
+# All of the changed files must be added in order to commit
+# Add files one at a time
+git add <filename>
+
+# Check that all changed files have been added
+git status
+
+# Commit your changes to the local branch
+git commit -m "Leave a short comment within quotes"
+
+-----------------------------------------------------------
+# Push your commits to your branch of the remote repository
+# This can be done periodically, or only when you're "finished"
+
+git push origin u/your_name
+
+# You might be asked for your password at this point.
+# You can avoid having to do this all the time by setting up your git credentials.
+# See the bottom part of the README.md file for this GitHub Org for instructions.
+
+
+-----------------------------------------------------------
+# Merge your branch with main to share your work with everyone
 
 # Submit a "pull" request via the webpage
 
-https://github.com/rubin-dp0/delegate-contributions-dp01/pull/new/your_name
+# Start here: https://github.com/rubin-dp0/delegate-contributions-dp01/pulls
+# Click on green "New pull request" button.
+# Choose "main" and then "u/your_name".
+# The arrow should point FROM "u/your-name" TO "main".
 
-# and click on green "New pull request" button.
 # This will alert others in DP0 that your changes
 # are ready for a Code Review (we anticipate this would 
 # be performed by another DP0 delegate).  It is good to assign at
