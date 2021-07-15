@@ -1,16 +1,16 @@
 # delegate-contributions-dp01
 
-This repository is for DP0 delegates to contribute tutorials for DP0.1. 
+This repository is for DP0 delegates to contribute and share DP0.1-related materials (e.g., code, analysis tools, tutorials).
 
-These tutorials could be Jupyter Notebooks, or markdown-formatted demonstrations of a DP0.1-related analysis with command-line tasks or the Portal Aspect.
+Tutorials could be Jupyter Notebooks, or markdown-formatted demonstrations of a DP0.1-related analysis with command-line tasks or the Portal Aspect.
 
-Please contribute only tutorials that you have verified to run, and which you agree to maintain and be contacted about.
+Please contribute only code that you have verified to run, and which you agree to maintain and be contacted about.
 
 ## How to contribute to this repository.
 
 ### Directories
 
-All tutorials must be organized into directories.
+All materials must be organized into directories.
 An ``example`` directory is provided as an illustration.
 Anyone may make a directory for a specific science topic, a specific tool or type of analysis, by DP0.1 working group, etc.
 Directory creators must create a README.md file within the folder which identifies them as the directory maintainer and describes the contents of the directory.
