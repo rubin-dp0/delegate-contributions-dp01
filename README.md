@@ -4,16 +4,16 @@ This repository is for DP0 delegates to contribute and share DP0.1-related mater
 
 Tutorials could be Jupyter Notebooks, or markdown-formatted demonstrations of a DP0.1-related analysis with command-line tasks or the Portal Aspect.
 
-Please contribute only code that you have verified to run, and which you agree to maintain and be contacted about.
+Please contribute only code that you have verified to run.
 
 ## How to contribute to this repository.
 
 ### Directories
 
-All materials must be organized into directories.
+All materials should be organized into directories.
 An ``example`` directory is provided as an illustration.
 Anyone may make a directory for a specific science topic, a specific tool or type of analysis, by DP0.1 working group, etc.
-Directory creators must create a README.md file within the folder which identifies them as the directory maintainer and describes the contents of the directory.
+Directory creators should create a README.md file within the directory that identifies them as the directory maintainer and describes the contents of the directory.
 Contact the directory creator if you want to contribute content to their directory.
 Direct messages between delegates in Community.lsst.org is an appropriate mode of contact.
 
@@ -21,9 +21,8 @@ Direct messages between delegates in Community.lsst.org is an appropriate mode o
 
 1. Make a branch for your work, and name it u/(your github username).
 2. Add and edit content in your branch until you're ready to share it with everyone.
-3. Start a new Pull Request (PR) from your branch to main. Assign another DP0 delegate to review it.
-4. Incorporate any comments you recieve during review into your branch's materials.
-5. After your reviewer has approved your PR, merge your branch into ``main``.
+3. Start a new Pull Request (PR) from your branch to main. You can ask other delegates to review/comment on your notebook.
+4. Merge your branch into ``main``.
 
 All delegates will have write access and so it is possible to commit changes directly to ``main``, but this is discouraged.
 
