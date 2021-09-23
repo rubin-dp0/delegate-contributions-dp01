@@ -131,7 +131,7 @@ git push origin u/your_name
 # Alternative commands for merging and deleting branches
 
 # First, delete the local version of branch u/your_name
-git branch -d u/your_name"
+git branch -d u/your_name
 
 # Then push that deletion to the remote verison of the branch
 git push origin --delete u/your_name
