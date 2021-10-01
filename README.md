@@ -14,8 +14,7 @@ All materials should be organized into directories.
 An ``example`` directory is provided as an illustration.
 Anyone may make a directory for a specific science topic, a specific tool or type of analysis, by DP0.1 working group, etc.
 Directory creators should create a README.md file within the directory that identifies them as the directory maintainer and describes the contents of the directory.
-Contact the directory creator if you want to contribute content to their directory.
-Direct messages between delegates in Community.lsst.org is an appropriate mode of contact.
+Contact the directory creator if you want to contribute content to their directory (e.g., by email or direct message in Community.lsst.org).
 
 ### Workflow
 
