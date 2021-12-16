@@ -8,6 +8,25 @@ Please contribute only code that you have verified to run.
 
 ## How to contribute to this repository.
 
+### Workflow
+
+1. Make a branch for your work, and name it u/(your github username).
+2. Add and edit content in your branch until you're ready to share it with everyone.
+3. Start a new Pull Request (PR) from your branch to main.
+4. Request a review from another delegate or Rubin staff (safety feature; see below).
+6. Merge your branch into ``main``.
+
+Do not commit changes directly to ``main``.
+
+### Reviews
+
+For this repository, all PRs to merge to the ``main`` branch must be reviewed.
+Reviewers should confirm that the PR is adding or editing only the users own files in their own folder.
+Reviewers should not evaluate the additions or changes: this is not a code review nor a peer review.
+These reviews are just a saftey feature to avoid, e.g., this README.md being accidentally deleted (which has happened).
+If the PR is deleting a file the reviewer should confirm that the user intended this deletion.
+Any delegate who is unsure about how to request a review for a PR, or needs a reviewer, can ask Melissa Graham.
+
 ### Directories
 
 All materials should be organized into directories.
@@ -16,15 +35,6 @@ Anyone may make a directory for a specific science topic, a specific tool or typ
 Directory creators should create a README.md file within the directory that identifies them as the directory maintainer and describes the contents of the directory.
 Contact the directory creator if you want to contribute content to their directory.
 Direct messages between delegates in Community.lsst.org is an appropriate mode of contact.
-
-### Workflow
-
-1. Make a branch for your work, and name it u/(your github username).
-2. Add and edit content in your branch until you're ready to share it with everyone.
-3. Start a new Pull Request (PR) from your branch to main. You can ask other delegates to review/comment on your notebook.
-4. Merge your branch into ``main``.
-
-All delegates will have write access and so it is possible to commit changes directly to ``main``, but this is discouraged.
 
 ### Best Practices
 
