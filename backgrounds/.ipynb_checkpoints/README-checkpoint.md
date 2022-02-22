@@ -11,6 +11,10 @@ Just add a line to the table below for every notebook added.
 | intro-to-backgrounds | Retrieve the subtracted background for a calexp or coadd, display it, run basic statics on the pixel values. | Melissa Graham |
 
 
+# potential additional notebooks
+
+Science demonstrations of how backgrounds are used; e.g., added back to a `calexp` and re-evaluated.
+
 # note
 
 These notebooks might not work for DP0.2, when the data products will be different.
