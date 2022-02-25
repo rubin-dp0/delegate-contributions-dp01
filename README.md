@@ -4,28 +4,37 @@ This repository is for DP0 delegates to contribute and share DP0.1-related mater
 
 Tutorials could be Jupyter Notebooks, or markdown-formatted demonstrations of a DP0.1-related analysis with command-line tasks or the Portal Aspect.
 
-Please contribute only code that you have verified to run, and which you agree to maintain and be contacted about.
+Please contribute only code that you have verified to run.
 
 ## How to contribute to this repository.
-
-### Directories
-
-All materials must be organized into directories.
-An ``example`` directory is provided as an illustration.
-Anyone may make a directory for a specific science topic, a specific tool or type of analysis, by DP0.1 working group, etc.
-Directory creators must create a README.md file within the folder which identifies them as the directory maintainer and describes the contents of the directory.
-Contact the directory creator if you want to contribute content to their directory.
-Direct messages between delegates in Community.lsst.org is an appropriate mode of contact.
 
 ### Workflow
 
 1. Make a branch for your work, and name it u/(your github username).
 2. Add and edit content in your branch until you're ready to share it with everyone.
-3. Start a new Pull Request (PR) from your branch to main. Assign another DP0 delegate to review it.
-4. Incorporate any comments you recieve during review into your branch's materials.
-5. After your reviewer has approved your PR, merge your branch into ``main``.
+3. Start a new Pull Request (PR) from your branch to main.
+4. Request a review from another delegate or Rubin staff (safety feature; see below).
+6. Merge your branch into ``main``.
 
-All delegates will have write access and so it is possible to commit changes directly to ``main``, but this is discouraged.
+Do not commit changes directly to ``main``.
+
+### Reviews
+
+For this repository, all PRs to merge to the ``main`` branch must be reviewed.
+Reviewers should confirm that the PR is adding or editing only the users own files in their own folder.
+Reviewers should not evaluate the additions or changes: this is not a code review nor a peer review.
+These reviews are just a saftey feature to avoid, e.g., this README.md being accidentally deleted (which has happened).
+If the PR is deleting a file the reviewer should confirm that the user intended this deletion.
+Any delegate who is unsure about how to request a review for a PR, or needs a reviewer, can ask Melissa Graham.
+
+### Directories
+
+All materials should be organized into directories.
+An ``example`` directory is provided as an illustration.
+Anyone may make a directory for a specific science topic, a specific tool or type of analysis, by DP0.1 working group, etc.
+Directory creators should create a README.md file within the directory that identifies them as the directory maintainer and describes the contents of the directory.
+Contact the directory creator if you want to contribute content to their directory.
+Direct messages between delegates in Community.lsst.org is an appropriate mode of contact.
 
 ### Best Practices
 
@@ -57,3 +66,6 @@ There is also a <a href="https://training.github.com/downloads/github-git-cheat-
 <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the ssh-agent</a>, a guide to setting up git credentials so that you can push changes back to your remote repositories.
 
 **See also the <a href="https://github.com/rubin-dp0/delegate-contributions-dp01/blob/main/CheatSheet.txt">GitHub Cheat Sheet</a> provided in this repository.** This cheat sheet was developed by Douglas Tucker for the <a href="https://github.com/LSSTScienceCollaborations/StackClub">LSST Science Collaborations Stack Club</a> and altered to be appropriate for Data Preview 0 by Greg Madejski. 
+
+### Too many notifications?
+<a href="https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/managing-your-subscriptions#choosing-how-to-unsubscribe">How to unsubscribe / unwatch GitHub repositories.</a>
