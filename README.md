@@ -21,10 +21,12 @@ Do not commit changes directly to ``main``.
 ### Reviews
 
 For this repository, all PRs to merge to the ``main`` branch must be reviewed.
-Reviewers should confirm that the PR is adding or editing only the users own files in their own folder.
+Reviewers should confirm that the PR is adding or editing only the user's own files in their own folder.
 Reviewers should not evaluate the additions or changes: this is not a code review nor a peer review.
 These reviews are just a saftey feature to avoid, e.g., this README.md being accidentally deleted (which has happened).
 If the PR is deleting a file the reviewer should confirm that the user intended this deletion.
+Reviewers can provide comments and approve the PR, but should not edit files, merge, or close the PR.
+
 Any delegate who is unsure about how to request a review for a PR, or needs a reviewer, can ask Melissa Graham.
 
 ### Directories
